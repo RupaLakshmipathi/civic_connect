@@ -1,6 +1,6 @@
-# Civics Connect – AI-Powered Civic Issue Reporting & Resolution System
+# Civic Connect – AI-Powered Civic Issue Reporting & Resolution System
 
-Civics Connect is an AI-driven civic engagement platform that enables citizens to report public issues and track their resolution status. The system leverages Machine Learning and NLP to automatically classify complaints and assist authorities in prioritizing and resolving issues efficiently.
+Civic Connect is an AI-driven civic engagement platform that enables citizens to report public issues and track their resolution status. The system leverages Machine Learning and NLP to automatically classify complaints and assist authorities in prioritizing and resolving issues efficiently.
 
 ## 🚀 Features
 - AI-based issue classification using NLP
