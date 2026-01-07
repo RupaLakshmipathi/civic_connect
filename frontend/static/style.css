@@ -1,0 +1,156 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e8f5e9, #f1f8f6);
+    color: #2e3d34;
+    min-height: 100vh;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(90deg, #1b5e20, #2e7d32);
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* ===== Main Container ===== */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* ===== Section Titles ===== */
+h2 {
+    color: #1b5e20;
+    margin-bottom: 15px;
+    border-left: 5px solid #43a047;
+    padding-left: 10px;
+}
+
+/* ===== Form Styles ===== */
+form label {
+    font-weight: 600;
+    color: #2e7d32;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1.5px solid #c8e6c9;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+    background-color: #f9fff9;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 0 2px rgba(46,125,50,0.2);
+}
+
+/* ===== Buttons ===== */
+button {
+    background: linear-gradient(90deg, #2e7d32, #43a047);
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #1b5e20, #2e7d32);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 18px rgba(46,125,50,0.3);
+}
+
+/* ===== Issue Card ===== */
+.issue-card {
+    background: #f1f8f6;
+    border-left: 6px solid #43a047;
+    padding: 16px;
+    margin-top: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.issue-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.issue-card strong {
+    color: #1b5e20;
+}
+
+/* ===== Status Badges ===== */
+.badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.badge-high {
+    background-color: #e53935;
+    color: white;
+}
+
+.badge-medium {
+    background-color: #fbc02d;
+    color: #333;
+}
+
+.badge-low {
+    background-color: #43a047;
+    color: white;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+    color: #4f6f5c;
+    font-size: 14px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    header {
+        font-size: 20px;
+    }
+}
