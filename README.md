@@ -1,23 +1,29 @@
-# civic_connect
-# Civic Connect – AI-Powered Civic Issue Reporting System
+# Civics Connect – AI-Powered Civic Issue Reporting & Resolution System
 
-Civic Connect is an AI-driven civic engagement platform that allows citizens to report and track public issues.
+Civics Connect is an AI-driven civic engagement platform that enables citizens to report public issues and track their resolution status. The system leverages Machine Learning and NLP to automatically classify complaints and assist authorities in prioritizing and resolving issues efficiently.
 
-## Features
-- Issue reporting with NLP-based classification
-- Priority detection
-- Real-time issue dashboard
-- SQLite database integration
+## 🚀 Features
+- AI-based issue classification using NLP
+- Automatic categorization (Road, Water, Electricity, Sanitation)
+- User-friendly web interface
+- Real-time issue submission & tracking
+- Data-driven insights for civic authorities
 
-## Tech Stack
-- Python
-- Flask
-- NLP (Rule-based / Extendable)
-- SQLite
-- HTML, CSS
+## 🧠 AI & ML
+- TF-IDF Vectorization
+- Logistic Regression Classifier
+- NLP-based complaint analysis
 
-## How to Run
-1. Install Python
-2. Install Flask
-3. Run `python app.py`
-4. Open browser at `http://127.0.0.1:5000/`
+## 🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, Tailwind CSS
+- **Backend:** Python, Flask
+- **Machine Learning:** scikit-learn, NLP
+- **Database:** PostgreSQL (optional/extendable)
+- **Tools:** Git, GitHub, VS Code
+
+## ⚙️ How to Run
+```bash
+pip install -r requirements.txt
+cd backend
+python train_model.py
+python app.py
