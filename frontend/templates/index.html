@@ -2,9 +2,33 @@
 <html>
 <head>
     <title>Civics Connect</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Welcome to Civics Connect</h1>
-    <a href="/report">Report an Issue</a>
+
+<header>
+    <h1>Civics Connect</h1>
+    <p>AI-Powered Civic Issue Reporting</p>
+</header>
+
+<div class="container">
+    <form method="POST">
+        <label>Describe your issue</label>
+        <textarea name="issue" required></textarea>
+        <button type="submit">Submit Issue</button>
+    </form>
+
+    {% if category %}
+    <div class="issue-card">
+        <h3>Predicted Category</h3>
+        <p>{{ category }}</p>
+    </div>
+    {% endif %}
+</div>
+
+<footer>
+    © 2025 Civics Connect
+</footer>
+
 </body>
 </html>
